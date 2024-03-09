@@ -28,7 +28,7 @@ const ItemDetail = ( {item} ) => {
                 <br />
                 <p className="descripcion">{item.descripcion}</p>
                 <p className="categoria">Categoría: {toCapital(item.categoria)}</p>
-                <p className="categoria">Stock:{item.stock}</p>
+                <p className="categoria">Stock: {item.stock}</p>
                 <p className="precio">${item.precio}</p>
                 <ItemCount
                   cantidad={cantidad}
