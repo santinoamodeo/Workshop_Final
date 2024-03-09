@@ -39,6 +39,10 @@
   color: black;
 }
 
+.logo svg:hover{
+  color: white;
+}
+
 .menu {
   list-style-type: none;
   display: flex;
@@ -50,13 +54,18 @@
   text-decoration: none;
   color: black;
   font-size: 1.3rem;
-  background-color: #B8C5C8;
   padding: 2px 10px;
   border-radius: 1rem;
+  border: solid 1px ;
 }
 
 .carrito_s{
   background-color: var(--clr-main);
+  padding: 2rem .45rem .75rem .45rem;
+}
+
+.menu-link:hover{
+  background-color: white;
 }
 
 .menu-link svg{
@@ -172,13 +181,30 @@
   width: auto;
   height: auto;
   margin-top: 1rem;
-  padding: 1rem;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+.contacto_container{
+padding: 13rem 0 0 52rem ;
+}
+
+.div_in_div{
+  background-color: var(--clr-main-light);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: #424242 solid 1px;
+  border-radius: 1rem;
+  padding: 1.5rem 0 1rem 0 ;
 }
 
 .formulario {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 1.6rem;
   align-items: flex-start;
 }
 
