@@ -26,6 +26,7 @@ function App() {
             <Route path="/checkout" element={<Checkout />}/>
           </Routes>
           
+
         </BrowserRouter>
       </CartProvider>
     </div>

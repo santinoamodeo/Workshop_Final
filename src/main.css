@@ -33,15 +33,15 @@
   border-bottom: 3px solid black;
 }
 
-.logo svg{
-  width: 3.5rem;
-  height: 3.5rem;
-  color: black;
-}
+  .logo svg{
+    width: 3.5rem;
+    height: 3.5rem;
+    color: black;
+  }
 
-.logo svg:hover{
-  color: white;
-}
+  .logo svg:hover{
+    color: white;
+  }
 
 .menu {
   list-style-type: none;
@@ -354,4 +354,37 @@
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
+}
+
+footer{
+  padding: 2.5rem;
+  width: 100%;
+  height: 10rem;
+  background-color: #6D8384;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  gap: .5rem;
+}
+
+.social1 svg{
+  width: 3rem;
+  height: 3rem;
+  color: black;
+}
+
+.social1 svg:hover{
+  color: white;
+}
+
+footer h2{
+  font-size: 1.6rem;
+}
+
+footer h2:hover{
+  color: white;
 }
