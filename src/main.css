@@ -186,26 +186,30 @@
 }
 
 .contacto_container{
-padding: 13rem 0 0 52rem ;
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .div_in_div{
   background-color: var(--clr-main-light);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
   align-items: center;
   border: #424242 solid 1px;
   border-radius: 1rem;
-  padding: 1.5rem 0 1rem 0 ;
+  padding: 1.8rem 2rem ;
 }
 
 .formulario {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .formulario input {
@@ -303,4 +307,51 @@ padding: 13rem 0 0 52rem ;
   color: white;
   border-radius: 1rem;
   border: solid 1px black;
+}
+
+.checkout_container{
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_greets{
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.container_greets h3{
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  background-color: rgb(194, 185, 175);
+  border-radius: 1rem;
+}
+
+.container_greets img{
+  border-radius: 1rem;
+  border: solid 1px black;
+}
+
+.container_greets li{
+  list-style: none;
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  background-color: #6D8384; 
+  border-radius: 1rem;
+  border: solid 1px black;
+}
+
+.container_greets li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
 }
